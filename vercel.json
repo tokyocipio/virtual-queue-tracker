@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    { "source": "/pasien/:no", "destination": "/index.html" },
+    { "source": "/dokter",     "destination": "/index.html" },
+    { "source": "/apotek",     "destination": "/index.html" },
+    { "source": "/display",    "destination": "/index.html" },
+    { "source": "/(.*)",       "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options",        "value": "DENY" },
+        { "key": "X-XSS-Protection",       "value": "1; mode=block" }
+      ]
+    }
+  ]
+}
