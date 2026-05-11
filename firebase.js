@@ -22,7 +22,7 @@ import {
 
 // ── GANTI INI DENGAN CONFIG DARI FIREBASE CONSOLE ──
 const firebaseConfig = {
-  apiKey: "AIzaSyCf0RD-zTsNDRFJtIwKkEd88cDZKjQiCeg",
+ apiKey: "AIzaSyCf0RD-zTsNDRFJtIwKkEd88cDZKjQiCeg",
   authDomain: "virtual-queue-tracker.firebaseapp.com",
   databaseURL: "https://virtual-queue-tracker-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "virtual-queue-tracker",
